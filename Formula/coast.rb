@@ -1,30 +1,30 @@
 class Coast < Formula
   desc "Containerized Host — isolated dev environments on a single machine"
   homepage "https://github.com/coast-guard/coasts"
-  version "0.0.1"
+  version "0.0.2"
   license "MIT"
 
   depends_on "socat"
 
   on_macos do
     on_arm do
-      url "https://github.com/coast-guard/coasts/releases/download/v0.0.1/coast-v0.0.1-darwin-arm64.tar.gz"
-      sha256 "19845064f5582e2d7c2bbd60d0570de0549c57242afe972d7db665c42fe29453"
+      url "https://github.com/coast-guard/coasts/releases/download/v0.0.2/coast-v0.0.2-darwin-arm64.tar.gz"
+      sha256 "3524c374631cb8c45145ad35de6931c9c9bfe55e5607ec98491f9c9c344dcaf1"
     end
     on_intel do
-      url "https://github.com/coast-guard/coasts/releases/download/v0.0.1/coast-v0.0.1-darwin-amd64.tar.gz"
-      sha256 "b639ad3c893854695d61dbfc96aabb0c9b58756a9f6dab41b08bd1537c95fdbc"
+      url "https://github.com/coast-guard/coasts/releases/download/v0.0.2/coast-v0.0.2-darwin-amd64.tar.gz"
+      sha256 "2bf45a15d18f53e2fd2d732100a2ad97138c35c34f441d7c2f1f53591a52a519"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/coast-guard/coasts/releases/download/v0.0.1/coast-v0.0.1-linux-arm64.tar.gz"
-      sha256 "1740c2d41fb9ed6a126f8b058c6d4ac8253c034a76096affc078539170359093"
+      url "https://github.com/coast-guard/coasts/releases/download/v0.0.2/coast-v0.0.2-linux-arm64.tar.gz"
+      sha256 "663a360933874afbf5087ba45e7347446ffdc9008275e9f1c6cffaca063e4737"
     end
     on_intel do
-      url "https://github.com/coast-guard/coasts/releases/download/v0.0.1/coast-v0.0.1-linux-amd64.tar.gz"
-      sha256 "344cd06a7440445699e7fea182cf6dff651eab6b678766ab8435dd64ac63679c"
+      url "https://github.com/coast-guard/coasts/releases/download/v0.0.2/coast-v0.0.2-linux-amd64.tar.gz"
+      sha256 "32af2653d6eeb816b0a237668671e35cfc50287cc80cb507816b11b3d5136d91"
     end
   end
 
